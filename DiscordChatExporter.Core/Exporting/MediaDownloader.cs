@@ -109,6 +109,6 @@ internal partial class MediaDownloader
             fileExtension = "";
         }
 
-        return PathEx.EscapeFileName(fileNameWithoutExtension.Truncate(127) + '-' + urlHash + fileExtension);
+        return PathEx.EscapeFileName(fileNameWithoutExtension.Truncate(127) + fileExtension);
     }
 }
