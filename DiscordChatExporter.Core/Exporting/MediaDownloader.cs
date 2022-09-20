@@ -103,7 +103,7 @@ internal partial class MediaDownloader
 
         // Probably not a file extension, just a dot in a long file name
         // https://github.com/Tyrrrz/DiscordChatExporter/issues/708
-        if (fileExtension.Length > 41)
+        if (fileExtension.Length > 82)
         {
             fileNameWithoutExtension = fileName;
             fileExtension = "";
